@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  background-color: rgb(61, 64, 71);
+  height:100vh;
+ 
+}
+
+.nav-link{
+  font-size:20px;
+ 
+}
+
+.mybrand{
+  font-size:25px;
+  padding:10px;
+}
+
+h3{
+  text-align: center;
+  color:black;
+  padding: 50px;
+  font-size:50px;
+}
+
+.container{
+  background-color: rgb(77, 122, 152);
+  width:800px;
+  height:450px;
+  border: 10px solid black;
+  border-radius: 10px;
+  left:50%;
+  top:50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+}
+
+.myusername{
+  padding:10px;
+}
+
+.mypassword{
+  padding:10px;
+}
+
+.mylabel{
+  font-size: 20px;
+}
+
+.mybutton{
+  background-color:rgb(26, 32, 36) ;
+  padding:10px 20px 10px 20px;
+  font-size:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color:white;
+}
+
+.search{
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+  background-color: rgb(26, 32, 36);
+  border:2px solid rgb(77, 122, 152);
+}
+
+.mycol{
+  margin-left:500px;
+}
+
+
